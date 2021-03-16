@@ -3,6 +3,8 @@ This project is a meant to test your skills and ability to adapt quickly.  You h
 
 This project is scaffolded in Laravel.  The documentation for Laravel can be fround at https://laravel.com/docs/8.x.
 
+The mockups that you will be using to build this page can be found at https://drive.google.com/file/d/1xbRIWRrfHt5oWRzMHbDfTH_sCEbjbRtz/view?usp=sharing.
+
 Certain parts of the design have been omitted from the mobile mockups, as I want to see how you would interpret that into a responsive design given the desktop mockup.
 
 This site uses Roboto Bold for the healines and nav links and Lato for the body copy.  Both fonts can be found at https://fonts.google.com/.
