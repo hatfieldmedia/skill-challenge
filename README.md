@@ -1,6 +1,8 @@
 # HATFIELD MEDIA SKILL CHALLENGE
 This project is a meant to test your skills and ability to adapt quickly.  You have as long as you need to complete this challenge.  Not only will I be looking at the quality of the code, but I will be looking at how well you can interpret the design into code.
 
+This project is scaffolded in Laravel.  The documentation for Laravel can be fround at https://laravel.com/docs/8.x.
+
 Certain parts of the design have been omitted from the mobile mockups, as I want to see how you would interpret that into a responsive design given the desktop mockup.
 
 This site uses Roboto Bold for the healines and nav links and Lato for the body copy.  Both fonts can be found at https://fonts.google.com/.
