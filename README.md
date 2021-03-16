@@ -15,7 +15,7 @@ The body text content is not that important, it's a standard lorem ipsum text th
 
 All images that you will need will be in the `public/images` folder.
 
-Utilize SASS as much as needed, it is a CSS processeor and you can find documentation https://sass-lang.com/.  You can write straight CSS inside the SASS files.
+Utilize SASS as much as needed, it is a CSS processor and you can find documentation https://sass-lang.com/.  You can write straight CSS inside the SASS files.
 
 Refrain from using jQuery and rely on good ol' Vanilla JavaScript.
 
