@@ -7,8 +7,39 @@
   padding: 2rem 0;
 }
 
-nav {
-  background-color: aquamarine;
+nav a {
+  color: #f1ba00 !important;
+}
+
+nav.navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #0c023f !important;
+  color: #f1ba00 !important;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 80px;
+}
+
+.navbar a:hover {
+  color: #f1ba00;
+  border-bottom: 4px solid #f1ba00;
+}
+
+.navbar-nav {
+  height: 20;
+}
+
+.nav-link {
+  padding: 1.36rem 1rem;
+}
+
+.navbar-brand {
+  padding: 1.23rem 1rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
 }
 
 .banner-block {
