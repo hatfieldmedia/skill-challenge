@@ -1,3 +1,28 @@
-.banner-block {
-    background-color: bisque;
+// .block .banner-block {
+//   background: url(../images/mountain-on-horizon.jpg);
+//   background-position: center;
+//   padding-bottom: 200px;
+//   opacity: 0.5;
+// }
+
+
+.block.banner-block {
+  background: url(../../../public/images/mountain-on-horizon.jpg);
+  padding-bottom: 200px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: inherit;
+  opacity: 80%;
+}
+
+.text {
+  opacity: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #f1ba00 !important;
+  font-size: 500% ;
+  text-align: left !important;
+  padding-left: 10%;
+  padding-top: 4%;
 }

@@ -42,8 +42,25 @@ nav.navbar {
   background-image: url("data:image/svg+xml;..");
 }
 
-.banner-block {
-  background-color: bisque;
+.block.banner-block {
+  background: url(/images/mountain-on-horizon.jpg?54abbd39d1593c286aeba92fc78cb567);
+  padding-bottom: 200px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: inherit;
+  opacity: 80%;
+}
+
+.text {
+  opacity: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #f1ba00 !important;
+  font-size: 500%;
+  text-align: left !important;
+  padding-left: 10%;
+  padding-top: 4%;
 }
 
 .one-column-block {
