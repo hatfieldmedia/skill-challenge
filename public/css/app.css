@@ -64,7 +64,32 @@ nav.navbar {
 }
 
 .one-column-block {
-  background-color: cadetblue;
+  background-color: #ffffff;
+  padding: 3% 17%;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 377%;
+  color: #0c023f !important;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.title::after {
+  content: "";
+  height: 4px;
+  width: 40%;
+  background-color: #0c023f;
+  position: absolute;
+  left: calc(50% - 21%);
+  bottom: 3px;
+}
+
+.mb-0 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 .two-column-icon-block {
