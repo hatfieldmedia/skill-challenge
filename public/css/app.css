@@ -7,16 +7,89 @@
   padding: 2rem 0;
 }
 
-nav {
-  background-color: aquamarine;
+nav a {
+  color: #f1ba00 !important;
 }
 
-.banner-block {
-  background-color: bisque;
+nav.navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #0c023f !important;
+  color: #f1ba00 !important;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 80px;
+}
+
+.navbar a:hover {
+  color: #f1ba00;
+  border-bottom: 4px solid #f1ba00;
+}
+
+.navbar-nav {
+  height: 20;
+}
+
+.nav-link {
+  padding: 1.36rem 1rem;
+}
+
+.navbar-brand {
+  padding: 1.23rem 1rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+
+.block.banner-block {
+  background: url(/images/mountain-on-horizon.jpg?54abbd39d1593c286aeba92fc78cb567);
+  padding-bottom: 200px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: inherit;
+  opacity: 80%;
+}
+
+.text {
+  opacity: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #f1ba00 !important;
+  font-size: 500%;
+  text-align: left !important;
+  padding-left: 10%;
+  padding-top: 4%;
 }
 
 .one-column-block {
-  background-color: cadetblue;
+  background-color: #ffffff;
+  padding: 3% 17%;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 377%;
+  color: #0c023f !important;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.title::after {
+  content: "";
+  height: 4px;
+  width: 40%;
+  background-color: #0c023f;
+  position: absolute;
+  left: calc(50% - 21%);
+  bottom: 3px;
+}
+
+.mb-0 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 .two-column-icon-block {
